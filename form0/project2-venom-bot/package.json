@@ -1,0 +1,14 @@
+{
+  "name": "project2-venom-bot",
+  "version": "1.0.0",
+  "description": "WhatsApp form using Venom Bot",
+  "main": "server.js",
+  "scripts": {
+    "start": "bun server.js",
+    "dev": "bun --watch server.js"
+  },
+  "dependencies": {
+    "express": "^4.18.2",
+    "venom-bot": "^5.0.21"
+  }
+}

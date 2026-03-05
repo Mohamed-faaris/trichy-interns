@@ -1,0 +1,15 @@
+{
+  "name": "project3-baileys",
+  "version": "1.0.0",
+  "description": "WhatsApp form using Baileys",
+  "main": "server.js",
+  "scripts": {
+    "start": "bun server.js",
+    "dev": "bun --watch server.js"
+  },
+  "dependencies": {
+    "express": "^4.18.2",
+    "@whiskeysockets/baileys": "^6.6.0",
+    "qrcode-terminal": "^0.12.0"
+  }
+}
