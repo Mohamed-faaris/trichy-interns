@@ -74,7 +74,7 @@ app.post('/send-message', async (req, res) => {
     console.log('📝 Saved to DB:', submission._id);
 
     // Send WhatsApp
-    const formattedMessage = `📋 New Submission\n\n👤 Name: ${name}\n📞 Phone: ${number}\n💬 Message: ${message}`;
+    const formattedMessage = `*New Contact Form Submission*\n\n─────────────────\n*Name:* ${name}\n*Phone:* ${number}\n*Message:* ${message}\n─────────────────\nSubmitted via Web Form`;
     
     for (const phone of ownerNumbers) {
       try {
